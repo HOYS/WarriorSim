@@ -21,6 +21,14 @@ var gear = {
          "id": 20623
       },
       {
+         "name": "Icebane Helmet",
+         "sta": 24,
+         "str": 12,
+         "source": "Crafting",
+         "phase": 6,
+         "id": 23019
+      },
+      {
          "name": "Conqueror's Crown",
          "str": 29,
          "sta": 34,
@@ -447,6 +455,14 @@ var gear = {
          "rand": 2158,
       },
       {
+         "name": "Icebane Pauldrons",
+         "str": 9,
+         "sta": 18,
+         "source": "Crafting",
+         "phase": 6,
+         "id": 22940
+      },
+      {
          "name": "Arathi Plate Spaulders",
          "str": 18,
          "sta": 20,
@@ -659,6 +675,13 @@ var gear = {
          "source": "BWL",
          "phase": 3,
          "id": 19398
+      },
+      {
+         "name": "Glacial Cloak",
+         "sta": 18,
+         "source": "Crafting",
+         "phase": 6,
+         "id": 22658
       },
       {
          "name": "Cape of the Black Baron",
@@ -885,6 +908,14 @@ var gear = {
          "source": "Crafting",
          "phase": 1,
          "id": 15050
+      },
+      {
+         "name": "Icebane Breastplate",
+         "sta": 24,
+         "str": 12,
+         "source": "Crafting",
+         "phase": 6,
+         "id": 22669
       },
       {
          "name": "Bloodsoul Breastplate",
@@ -1164,6 +1195,14 @@ var gear = {
          "id": 12936
       },
       {
+         "name": "Icebane Bracers",
+         "str": 6,
+         "sta": 13,
+         "source": "Crafting",
+         "phase": 6,
+         "id": 22671
+      },
+      {
          "name": "Berserker Bracers",
          "str": 19,
          "sta": 11,
@@ -1342,6 +1381,14 @@ var gear = {
          "source": "MC",
          "phase": 1,
          "id": 18823
+      },
+      {
+         "name": "Icebane Gauntlets",
+         "str": 9,
+         "sta": 18,
+         "source": "Crafting",
+         "phase": 6,
+         "id": 22670
       },
       {
          "name": "Devilsaur Gauntlets",
@@ -1770,6 +1817,14 @@ var gear = {
          "source": "Crafting",
          "phase": 1,
          "id": 15052
+      },
+      {
+         "name": "Icebane Leggings",
+         "sta": 24,
+         "str": 10,
+         "source": "Crafting",
+         "phase": 6,
+         "id": 222699
       },
       {
          "name": "Blademaster Leggings",
