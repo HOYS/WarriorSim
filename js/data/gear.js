@@ -24,7 +24,7 @@ var gear = {
          "name": "Icebane Helmet",
          "sta": 24,
          "str": 12,
-         "source": "Crafting",
+         "source": "Frost Resistance",
          "phase": 6,
          "id": 23019
       },
@@ -458,7 +458,7 @@ var gear = {
          "name": "Icebane Pauldrons",
          "str": 9,
          "sta": 18,
-         "source": "Crafting",
+         "source": "Frost Resistance",
          "phase": 6,
          "id": 22940
       },
@@ -913,7 +913,7 @@ var gear = {
          "name": "Icebane Breastplate",
          "sta": 24,
          "str": 12,
-         "source": "Crafting",
+         "source": "Frost Resistance",
          "phase": 6,
          "id": 22669
       },
@@ -1198,7 +1198,7 @@ var gear = {
          "name": "Icebane Bracers",
          "str": 6,
          "sta": 13,
-         "source": "Crafting",
+         "source": "Frost Resistance",
          "phase": 6,
          "id": 22671
       },
@@ -1386,7 +1386,7 @@ var gear = {
          "name": "Icebane Gauntlets",
          "str": 9,
          "sta": 18,
-         "source": "Crafting",
+         "source": "Frost Resistance",
          "phase": 6,
          "id": 22670
       },
@@ -1822,7 +1822,7 @@ var gear = {
          "name": "Icebane Leggings",
          "sta": 24,
          "str": 10,
-         "source": "Crafting",
+         "source": "Frost Resistance",
          "phase": 6,
          "id": 222699
       },

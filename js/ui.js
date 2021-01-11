@@ -757,7 +757,8 @@ SIM.UI = {
             let source = item.source.toLowerCase(), phase = item.phase;
             if (item.source == 'Lethon' || item.source == 'Emeriss' || item.source == 'Kazzak' || item.source == 'Azuregos' || item.source == 'Ysondre' || item.source == 'Taerar' || item.source == 'Green Dragons')
                 source = 'worldboss';
-
+            if (item.source == "Frost Resistance")
+                source = 'frostresistance'
             if (phase && !view.filter.find('.phases [data-id="' + phase + '"]').hasClass('active'))
                 continue;
             if (source && !view.filter.find('.sources [data-id="' + source + '"]').hasClass('active'))
@@ -841,7 +842,8 @@ SIM.UI = {
             let source = item.source.toLowerCase(), phase = item.phase;
             if (item.source == 'Lethon' || item.source == 'Emeriss' || item.source == 'Kazzak' || item.source == 'Azuregos' || item.source == 'Ysondre' || item.source == 'Taerar' || item.source == 'Green Dragons')
                 source = 'worldboss';
-
+            if (item.source == "Frost Resistance")
+                source = 'frostresistance'
             if (max == 2 && 
                 ((phase && !view.filter.find('.phases [data-id="' + phase + '"]').hasClass('active')) ||
                 (source && !view.filter.find('.sources [data-id="' + source + '"]').hasClass('active'))))
