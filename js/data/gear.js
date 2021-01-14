@@ -1631,6 +1631,7 @@ var gear = {
          "str": 5,
          "sta": 15,
          "agi": 15,
+         "res": 10,
          "source": "Frost Resistance",
          "phase": 6,
          "id": 14502
