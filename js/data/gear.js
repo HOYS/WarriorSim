@@ -2373,6 +2373,14 @@ var gear = {
          "id": 19376
       },
       {
+         "name": "Ramaladni's Icy Grasp",
+         "sta": 15,
+         "res": 24,
+         "source": "Frost Resistance",
+         "phase": "6",
+         "id": 22707
+      },
+      {
          "name": "Band of Accuria",
          "hit": 2,
          "sta": 10,
