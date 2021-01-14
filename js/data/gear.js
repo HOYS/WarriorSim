@@ -24,6 +24,7 @@ var gear = {
          "name": "Icebane Helmet",
          "sta": 24,
          "str": 12,
+         "res": 44,
          "source": "Frost Resistance",
          "phase": 6,
          "id": 23019
@@ -460,6 +461,7 @@ var gear = {
          "sta": 18,
          "source": "Frost Resistance",
          "phase": 6,
+         "res": 33,
          "id": 22940
       },
       {
@@ -915,12 +917,14 @@ var gear = {
          "ap" : 40,
          "source": "Frost Resistance",
          "phase": 6,
+         "res": 40,
          "id": 22664
       },
       {
          "name": "Icebane Breastplate",
          "sta": 24,
          "str": 12,
+         "res": 42,
          "source": "Frost Resistance",
          "phase": 6,
          "id": 22669
@@ -1199,6 +1203,7 @@ var gear = {
          "ap": 32,
          "source": "Frost Resistance",
          "phase": 6,
+         "res": 20,
          "id": 22665
       },
       {
@@ -1216,6 +1221,7 @@ var gear = {
          "sta": 13,
          "source": "Frost Resistance",
          "phase": 6,
+         "res": 24,
          "id": 22671
       },
       {
@@ -1404,6 +1410,7 @@ var gear = {
          "sta": 18,
          "source": "Frost Resistance",
          "phase": 6,
+         "res": 32,
          "id": 22670
       },
       {
@@ -1412,6 +1419,7 @@ var gear = {
          "ap": 22,
          "source": "Frost Resistance",
          "phase": 6,
+         "res": 30,
          "id": 22666
       },
       {
@@ -1857,6 +1865,7 @@ var gear = {
          "str": 10,
          "source": "Frost Resistance",
          "phase": 6,
+         "res": 40,
          "id": 222699
       },
       {
@@ -1865,6 +1874,7 @@ var gear = {
          "agi": 15,
          "source": "Frost Resistance",
          "phase": 6,
+         "res": 40,
          "id": 22702
       },
       {
@@ -2818,6 +2828,13 @@ var gear = {
    ],
    "trinket1": [
       {
+         "name": "Gyrofreeze Ice Reflector",
+         "source": "Frost Resistance",
+         "phase": "6",
+         "id": 18634,
+         "res": 15
+      },
+      {
          "name": "Zandalarian Hero Medallion (Used last 20 secs)",
          "source": "ZG",
          "phase": "4",
@@ -2940,6 +2957,13 @@ var gear = {
          "source": "ZG",
          "phase": "4",
          "id": 19949
+      },
+      {
+         "name": "Gyrofreeze Ice Reflector",
+         "source": "Frost Resistance",
+         "phase": "6",
+         "id": 18634,
+         "res": 15
       },
       {
          "name": "Badge of the Swarmguard (Used last 30 secs / 50% proc chance)",

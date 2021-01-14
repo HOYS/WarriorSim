@@ -34,6 +34,7 @@ class Player {
         this.base = {
             ap: 0,
             agi: 0,
+            FrR: 0,
             str: 0,
             hit: 0,
             crit: 0,
@@ -146,6 +147,9 @@ class Player {
                             this.base['skill_' + sk] += item.skill;
                         }
                     }
+
+                    if (item.res && item.res > 0)
+                        this.base['FrR'] += item.res;
 
                     if (type == "mainhand" || type == "offhand" || type == "twohand")
                         this.addWeapon(item, type);

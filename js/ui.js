@@ -592,6 +592,7 @@ SIM.UI = {
         let ohdmg = player.stats.dmgmod * (player.oh ? player.oh.modifier * 100 : 0);
         view.sidebar.find('#dmgmod').html(mhdmg.toFixed(2) + '% <small>MH</small>' + (player.oh ? space + ohdmg.toFixed(2) + '% <small>OH</small>' : ''));
         view.sidebar.find('#haste').html((player.stats.haste * 100).toFixed(2) + '%');
+        view.sidebar.find('#FrR').html(player.stats.FrR);
         view.sidebar.find('#race').text(localStorage.race);
         view.sidebar.find('#sets').empty();
 
@@ -734,6 +735,7 @@ SIM.UI = {
                                 <th>Max</th>
                                 <th>Speed</th>
                                 <th>Skill</th>
+                                <td>Frost Res</th>
                                 <th>Type</th>
                                 <th>PPM</th>
                                 <th>DPS</th>
@@ -784,6 +786,7 @@ SIM.UI = {
                         <td>${item.maxhit || ''}</td>
                         <td>${item.speed || ''}</td>
                         <td>${item.skill || ''}</td>
+                        <td>${item.res || '' }</td>
                         <td>${item.type || ''}</td>
                         <td class="ppm"><p contenteditable="true">${item.ppm || ''}</p></td>
                         <td>${item.dps || ''}</td>
@@ -831,6 +834,7 @@ SIM.UI = {
                                 <th>Hit</th>
                                 <th>Crit</th>
                                 <th>Skill</th>
+                                <td>Frost Res</th>
                                 <th>Type</th>
                                 <th>DPS</th>
                             </tr>
@@ -872,6 +876,7 @@ SIM.UI = {
                         <td>${item.hit || ''}</td>
                         <td>${item.crit || ''}</td>
                         <td>${item.skill || ''}</td>
+                        <td>${item.res || '' }</td>
                         <td>${item.type || ''}</td>
                         <td>${item.dps || ''}</td>
                     </tr>`;
@@ -917,6 +922,7 @@ SIM.UI = {
                                 <th>Hit</th>
                                 <th>Crit</th>
                                 <th>Skill</th>
+                                <td>Frost Res</th>
                                 <th>DPS</th>
                             </tr>
                         </thead>
@@ -933,6 +939,7 @@ SIM.UI = {
                         <td>${item.hit || ''}</td>
                         <td>${item.crit || ''}</td>
                         <td>${item.skill_1 || ''}</td>
+                        <td>${item.res || '' }</td>
                         <td>${item.dps || ''}</td>
                     </tr>`;
         }
