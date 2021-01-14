@@ -910,6 +910,14 @@ var gear = {
          "id": 15050
       },
       {
+         "name": "Icy Scale Breastplate",
+         "sta": 24,
+         "ap" : 40,
+         "source": "Frost Resistance",
+         "phase": 6,
+         "id": 22664
+      },
+      {
          "name": "Icebane Breastplate",
          "sta": 24,
          "str": 12,
@@ -1186,6 +1194,14 @@ var gear = {
          "rand": 2163,
       },
       {
+         "name": "Icy Scale Bracers",
+         "sta": 17,
+         "ap": 32,
+         "source": "Frost Resistance",
+         "phase": 6,
+         "id": 22665
+      },
+      {
          "name": "Battleborn Armbraces",
          "crit": 1,
          "hit": 1,
@@ -1391,6 +1407,14 @@ var gear = {
          "id": 22670
       },
       {
+         "name": "Icy Scale Gauntlets",
+         "sta": 22,
+         "ap": 22,
+         "source": "Frost Resistance",
+         "phase": 6,
+         "id": 22666
+      },
+      {
          "name": "Devilsaur Gauntlets",
          "crit": 1,
          "sta": 9,
@@ -1593,6 +1617,15 @@ var gear = {
          "source": "PVP",
          "phase": 2,
          "id": 20204
+      },
+      {
+         "name": "Frostbite Girdle",
+         "str": 5,
+         "sta": 15,
+         "agi": 15,
+         "source": "Frost Resistance",
+         "phase": 6,
+         "id": 14502
       },
       {
          "name": "Belt of Heroism",
@@ -1825,6 +1858,14 @@ var gear = {
          "source": "Frost Resistance",
          "phase": 6,
          "id": 222699
+      },
+      {
+         "name": "Icy Scale Leggings",
+         "sta": 28,
+         "agi": 15,
+         "source": "Frost Resistance",
+         "phase": 6,
+         "id": 22702
       },
       {
          "name": "Blademaster Leggings",
